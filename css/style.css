@@ -1,0 +1,53 @@
+
+body{
+    
+    background: rgb(47,30,59);
+    background: linear-gradient(90deg, rgba(47,30,59,1) 0%, rgba(0,0,0,1) 51%, rgba(19,12,3,1) 100%);
+}
+.container{
+    margin-top: 400px;
+}
+h1{
+    text-align: center;
+    /* margin-top: 50px; */
+    color: #fff;
+}
+.player1{
+    margin-left: 850px;
+}
+.range-alert{
+    text-align: center;
+}
+.player2_filed{
+    display: none;
+    margin-left: 860px;
+}
+.start{
+    background: #000;
+    color:#fff;
+    padding: 2px 20px ;
+    border: 1px  solid #fff;
+    transition: .2s;
+}
+.start:hover{
+    background: #ffff;
+    color: #000000;
+    border:1px solid  #ffff;
+    border-radius: 5px;
+}
+.guess{
+    display: none;
+    margin-left: 905px;
+    margin-top: 15px;
+    background: #000;
+    color:#fff;
+    padding: 10px 20px ;
+    border: 1px  solid #fff;
+    transition: .2s;
+}
+.guess:hover{
+    background: #ffff;
+    color: #000000;
+    border:1px solid  indigo;
+    border-radius: 5px;
+}
